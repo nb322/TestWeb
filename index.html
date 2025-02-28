@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Datorikas portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- W3.CSS -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        
+        <style>
+            /* Custom styles for the fixed navigation bar */
+            .w3-bar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+            }
+            .w3-bar-item {
+                padding: 16px 20px;
+            }
+            body {
+                margin-top: 50px; /* Space for fixed navbar */
+            }
+
+            /* Center all content */
+            .w3-container {
+                text-align: center;
+            }
+
+            /* Optional: Add some spacing between sections */
+            .section-spacing {
+                margin-top: 50px;
+            }
+
+            /* Style for images */
+            img {
+                width: 100%;
+                max-width: 600px;
+                height: auto;
+                margin: 20px 0;
+            }
+
+            /* Style for video */
+            video {
+                max-width: 600px;
+                height: auto;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Fixed Navigation Bar -->
+        <div class="w3-bar w3-black w3-large">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#gimp" class="w3-bar-item w3-button">GIMP</a>
+            <a href="#inkscape" class="w3-bar-item w3-button">Inkscape</a>
+            <a href="#3D" class="w3-bar-item w3-button">Inkscape</a>
+            <a href="#clipchamp" class="w3-bar-item w3-button">Clipchamp video</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+
+        <!-- Header -->
+        <header class="w3-container w3-blue w3-center w3-padding-64" id="home">
+            <h1 class="w3-jumbo">Nikita Baraņņiks</h1>
+            <p>Portfolio</p>
+        </header>
+
+            <div class="w3-row w3-center">
+                 <div class="w3-container w3-content w3-padding-64" style="max-width:800px"  id="gimp">
+                    <h2><b>GIF Banera Veidošana ar Rastrgrafikas Rīku GIMP</b></h2>
+                    <img src="images/baner.gif" alt="GIF Banner">
+                    <p>Es izveidoju gifu kā kiberdrošības saita reklāmu ar trim pamatslaidiem - informatīvs attēls, atsuksme uz saiti, organizācijas sauklis.</p>
+                </div>
+
+                <div class="w3-container w3-content w3-padding-64" style="max-width:800px"  id="inkscape">
+                    <h2><b>Logo veidošana ar Vektorgrafikas Rīku Inkscape</b></h2>
+                    <img src="images/rumba.svg" alt="Logo">
+                </div>
+
+                <div id="3D" class="w3-col l12 m12 s12">
+                    <h2><b>3D Modeļa Veidošana ar TinkerCAD un to Printēšana</b></h2>
+                    <img src="images/3d_model.jpg" alt="3D Model">
+                </div>
+
+                <div id="clipchamp" class="w3-col l12 m12 s12">
+                    <h2><b>Video Izveide ar Clipchamp Video Radoktora Palīdzību</b></h2>
+                    <video controls muted>
+                        <source src="images/video_NB.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="w3-col l12 m12 s12">
+                    <h2><b>Teksta Apstrāde MS Word</b></h2>
+                    <p>Document editing and formatting using MS Word.</p>
+                </div>
+
+                <div class="w3-col l12 m12 s12">
+                    <h2><b>MS Excel</b></h2>
+                    <img src="images/grafiks.jpg" alt="MS Excel Chart">
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 section-spacing" id="about">
+            <h2>About Me</h2>
+            <p>Here you can add information about yourself.</p>
+        </div>
+
+        <!-- Contact Section -->
+        <footer class="w3-container w3-black w3-center w3-padding-32 section-spacing" id="contact">
+            <p>Contact: <a href="mailto:nikita@example.com" class="w3-button w3-hover-opacity">Email</a></p>
+        </footer>
+
+    </body>
+</html>
+
