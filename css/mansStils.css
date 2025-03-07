@@ -1,8 +1,7 @@
 body {
-    background-image: url('images/background.jpg'); /* Norāda fona attēlu */
     background-size: cover;
     background-position: center;
-    color: #c4f4f7; /* Teksta krāsa */
+    color: black; /* Teksta krāsa */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -10,12 +9,15 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Puscaurspīdīgs fons labākai salasāmībai */
+    background-color: #d7fffe; 
+    border: #b9f4fe;
+    margin:20px;
     padding: 20px;
 }
 
+
 h1, h2 {
-    color: #dbc4f7; /* Izceļ virsrakstus */
+    color: black; /* Izceļ virsrakstus */
 }
 
 main {
@@ -23,7 +25,8 @@ main {
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.5); /* Caurspīdīgs fons saturam */
+    background-color: #d7fffe;
+    border: #b9f4fe;
     padding: 15px;
     margin: 20px auto;
     width: 80%;
@@ -50,7 +53,7 @@ a:hover {
 
 footer {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    padding: 7px;
     position: fixed;
     bottom: 0;
     width: 100%;
