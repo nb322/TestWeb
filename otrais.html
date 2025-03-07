@@ -9,21 +9,37 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <header>
+    <header id="kiberdr">
         <h1>Kiberdrošība</h1>
-        <div class="container" align="left" onclick="myFunction(this)">
+    </header>
+
+    <!-- Fixed menu button on the left side -->
+    <div class="container" align="left" onclick="myFunction(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
-</div>
-    </header>
+    </div>
+
+    <!-- Pop-up menu -->
+    <div class="side-menu">
+        <ul>
+            <li><a href="#kiberdr">Kiberdrosiba</a></li>
+            <li><a href="#kasir">Kas ir kiberdrosiba?</a></li>
+            <li><a href="#principi">Galvenie kiberdrošības principi</a></li>
+            <li><a href="#avoti">Avoti</a></li>
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
     <main>
         <img src="images/baner.gif" alt="GIF Banner">
-        <section>
+        <section id="kasir">
             <h2>Kas ir kiberdrošība?</h2>
             <p>Kiberdrošība ir pasākumu kopums, kas nodrošina informācijas sistēmu, datu un lietotāju aizsardzību pret kiberuzbrukumiem.</p>
         </section>
-        <section>
+        <section id="principi">
             <h2>Galvenie kiberdrošības principi</h2>
             <ul>
                 <li>Konfidencialitāte – aizsargā datus no nesankcionētas piekļuves.</li>
@@ -31,7 +47,7 @@
                 <li>Pieejamība – sistēmu un datu pieejamība lietotājiem nepieciešamajā laikā.</li>
             </ul>
         </section>
-        <section>
+        <section id="avoti">
             <h2>Avoti</h2>
             <ul>
                 <li><a href="https://www.enisa.europa.eu/">Eiropas Kiberdrošības Aģentūra (ENISA)</a></li>
