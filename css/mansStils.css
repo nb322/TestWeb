@@ -1,4 +1,5 @@
 body {
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
     color: black; /* Teksta krāsa */
@@ -29,11 +30,23 @@ header {
     position: fixed;
     top: 0;
     left: -250px; /* Hide the menu off-screen */
-    background-color: #d7fffe;
+    background-image: url('images/background.jpg');
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     z-index: 999; /* Ensure it's below the menu button */
+}
+  .side-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+  .side-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .side-menu.open {
@@ -48,7 +61,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 998; /* Ensure it's below the menu and button */
 }
 
