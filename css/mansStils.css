@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/background.jpg');
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
     color: black; /* Teksta krāsa */
@@ -30,7 +30,6 @@ header {
     position: fixed;
     top: 0;
     left: -250px; /* Hide the menu off-screen */
-    background-image: url('images/background.jpg');
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -111,6 +110,7 @@ main {
 }
 
 section {
+    background-image: url("images/background.jpg");
     background-color: #d7fffe;
     border: #b9f4fe;
     padding: 15px;
